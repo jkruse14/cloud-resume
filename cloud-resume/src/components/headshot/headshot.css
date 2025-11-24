@@ -1,0 +1,46 @@
+.headshot-container {
+  position: relative;
+  display: inline-block;
+}
+
+.headshot-image {
+  position: relative;
+  border-radius: 8%;
+  height: 12em;
+  z-index: 2;
+}
+
+.headshot-box {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 150%;
+  height: 33%;
+  /* background: linear-gradient(90deg, #3066b1, #89c4fb); */
+  z-index: 1;
+  border-radius: 3%;
+}
+
+@media (max-width: 768px) {
+  .headshot-image {
+    height: 8em;
+  }
+  
+  .headshot-box {
+    width: 100%;
+    height: 25%;
+    left: 50% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .headshot-image {
+    height: 6em;
+  }
+  
+  .headshot-box {
+    width: 100%;
+    height: 20%;
+    left: 50% !important;
+  }
+}

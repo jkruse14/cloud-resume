@@ -1,3 +1,6 @@
+cloud-resume/src/assets/*
+cloud-resume/public/*
+
 # Logs
 logs
 *.log

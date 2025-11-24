@@ -1,0 +1,71 @@
+.we-wrapper {
+  box-shadow: 0 0 2em #ccc;
+  border-radius: 1em;
+}
+.we-company-wrapper {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    /* gap: 1em; */
+    font: 2em Arial, sans-serif;
+    padding: .01em;
+    margin-bottom: .5em;
+}
+
+.we-logo {
+    height: 1.5em;
+    padding: .5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.we-logo-placeholder {
+    width: 1.5em;
+    height: 1.5em;
+    margin: .5em;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 0.7em;
+    flex-shrink: 0;
+}
+
+.we-wrapper ul {
+  text-align: left;
+}
+
+.we-wrapper ul li {
+  list-style-type: none;
+}
+
+.we-wrapper ul li::before {
+  content: "- ";
+  margin-right: 0.5em;
+}
+
+.we-responsibilities-wrapper {
+    padding-bottom: 1em;
+
+    label {
+        font-size: 1em;
+    }
+}
+
+/* .logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+
+.we-item {
+    margin-bottom: .5em;
+    margin-left: 1em;
+    display: block;
+    text-align: left;
+    font: 1.2em Arial, sans-serif;
+}

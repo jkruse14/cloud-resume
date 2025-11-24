@@ -1,0 +1,19 @@
+{
+    "academic": [
+        {
+            "institution": "University of Wisconsin - Madison",
+            "degree": "B.S. Computer Science",
+            "startDate": "September 2007",
+            "endDate": "May 2009",
+            "logoPath": "uw.png" 
+        },
+        {
+            "institution": "University of Wisconsin - Stout",
+            "degree": "",
+            "startDate": "September 2004",
+            "endDate": "May 2007",
+            "logoPath": "uw-stout.png"
+        }
+    ],
+    "certifications": []
+}

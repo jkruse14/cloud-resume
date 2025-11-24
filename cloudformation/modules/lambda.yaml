@@ -1,0 +1,44 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'Lambda Functions'
+
+Resources:
+  LambdaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: cloud-kruser-lambda-execution-role
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+
+  HelloLambda:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: hello
+      Runtime: nodejs18.x
+      Handler: index.handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Code:
+        ZipFile: |
+          exports.handler = async (event) => {
+            return {
+              statusCode: 200,
+              body: JSON.stringify('Hello from Lambda!')
+            };
+          };
+      Environment:
+        Variables:
+          foo: bar
+      MemorySize: 128
+      Timeout: 3
+
+Outputs:
+  LambdaFunctionArn:
+    Value: !GetAtt HelloLambda.Arn
+  LambdaRoleArn:
+    Value: !GetAtt LambdaExecutionRole.Arn

@@ -1,0 +1,33 @@
+version=0.1
+
+[default.global.parameters]
+stack_name = "cloud-kruser-static-website"
+s3_prefix = "cloud-kruser-backend"
+tags = "doosan:repo=\"https://github.com/jkruse14/cloud-kruser-backend\" ckt:owner=\"CKT\" ckt:website=\"cloudkruser\""
+
+profile = "cktwebsites"
+confirm_changeset = true
+region = "us-east-1"
+capabilities = "CAPABILITY_NAMED_IAM"
+fail_on_empty_changeset = false
+s3_bucket = "ckt-767828741308-us-east-1-cloudformation"
+output_template_file="template-packaged.yaml"
+role_arn="arn:aws:iam::767828741308:role/CloudFormationDeployer"
+on_failure="DELETE"
+exclude = ["*.test.js"]
+
+[cktwebsites.global.parameters]
+stack_name = "cloud-kruser-static-website"
+s3_prefix = "cloud-kruser-backend"
+tags = "doosan:repo=\"https://github.com/jkruse14/cloud-kruser-backend\" ckt:owner=\"CKT\" ckt:website=\"cloudkruser\""
+
+profile = "cktwebsites"
+confirm_changeset = true
+region = "us-east-1"
+capabilities = "CAPABILITY_NAMED_IAM"
+fail_on_empty_changeset = false
+s3_bucket = "ckt-767828741308-us-east-1-cloudformation"
+output_template_file="template-packaged.yaml"
+role_arn="arn:aws:iam::767828741308:role/CloudFormationDeployer"
+on_failure="DELETE"
+exclude = ["*.test.js"]

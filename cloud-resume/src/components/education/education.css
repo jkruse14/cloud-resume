@@ -1,0 +1,45 @@
+.ed-wrapper {
+  box-shadow: 0 0 2em #ccc;
+  border-radius: 1em;
+  margin-bottom: 2rem;
+}
+
+.ed-institution-wrapper {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    font: 2em Arial, sans-serif;
+    padding: .01em;
+    margin-bottom: .5em;
+}
+
+.ed-logo {
+    height: 1.5em;
+    padding: .5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.ed-logo-placeholder {
+    width: 1.5em;
+    height: 1.5em;
+    margin: .5em;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 0.7em;
+    flex-shrink: 0;
+}
+
+.ed-item {
+    margin-bottom: .5em;
+    margin-left: 1em;
+    display: block;
+    text-align: left;
+    font: 1.2em Arial, sans-serif;
+    padding-bottom: 1em;
+}

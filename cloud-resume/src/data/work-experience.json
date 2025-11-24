@@ -1,0 +1,83 @@
+[
+    {
+        "company": "Bobcat",
+        "logoPath": "bobcat3.jpg",
+        "title": "Solution Architect, DevSecOps Engineer",
+        "location": "Minneapolis, MN",
+        "startDate": "December 2022",
+        "endDate": "Present",
+        "responsibilities": [
+            "Implement a governance review program with delivery teams",
+            "Implement a governance report for leadership",
+            "Design and build a custom solution to host GitHub actions runners within our cloud environments",
+            "Build standardized actions for GitHub Actions to create a paved-path for delivery teams’ workflows",
+            "Start an “Office Hours” program to offer dedicated time to answering questions or assisting in troubleshooting",
+            "Lead the development of infrastructure for AI centric applications"
+        ]
+    },
+    {
+        "company": "iFit",
+        "logoPath": "ifit.png",
+        "title": "Senior DevOps Engineer",
+        "location": "Minneapolis, MN (Remote)",
+        "startDate": "May 2021",
+        "endDate": "November 2022",
+        "responsibilities": [
+            "Design, build CI/CD pipeline with github actions, terraform, AWS CodeDeploy",
+            "Automate infrastructure scaling for live events (AWS Step Functions, TypeScript, NodeJs, NestJs)",
+            "Develop the public API with GraphQL (AWS AppSync, TypeScript, NodeJs)",
+            "Develop microservices based on domain driven design to break down a monolith (Serverless, ECS Fargate + Docker, TypeScript, NodeJs)",
+            "Research, design, and document services and how to best fit in AWS ecosystem"
+        ]
+    },
+    {
+        "company": "FloSports",
+        "logoPath": "flosports.png",
+        "title": "Software Engineer II",
+        "location": "Austin, TX",
+        "startDate": "October 2017",
+        "endDate": "May 2021",
+        "responsibilities": [
+            "Build a service to support active/active encoding of live streams",
+            "Build a service to automate clipping of replays for live events",
+            "Build a service to add trickplay for replays and VoDs",
+            "Build an SDK for the Live API",
+            "Plan and build out endpoints using Serverless, AWS Lambda",
+            "Plan and build out Serverless plugins to support API deployment",
+            "Build test framework to test endpoints, IoT messages, and SNS messages",
+            "Write supporting documentation in swagger and github"
+        ]
+    },
+    {
+        "company": "Workfront",
+        "logoPath": "workfront.jpg",
+        "title": "Software Developer II (Java)",
+        "location": "Minneapolis, MN",
+        "startDate": "January 2014",
+        "endDate": "October 2017",
+        "responsibilities": [
+            "Research and develop new features",
+            "Write technical overviews and outlines for new features",
+            "Maintain and build report delivery feature"
+        ]
+    },
+    {
+        "company": "Dotomi/ValueClick",
+        "logoPath": "",
+        "title": "Client Integration Engineer – Technical Lead",
+        "location": "Chicago, IL",
+        "startDate": "March 2011",
+        "endDate": "December 2013",
+        "responsibilities": [
+            "Lead new client integration and requirements gathering to meet client goals",
+            "Write and test custom scripts using Javascript to run countdowns, table look ups, and data gathering",
+            "Create stored SQL procedures to read product feeds and create/update look up tables",
+            "Project manager to develop a tool to automate look up table updates and notifications (Python, PostgreSQL)",
+            "Develop web service APIs to gather data about a given client's set up or modify a given client's configuration for internal tools (PHP, PostgreSQL)",
+            "Create web interface to work with web service APIs (Javascript, JQuery, Datatables)",
+            "Develop an internal tool to monitor hourly performance of running messages (Python, PostgreSQL)",
+            "Develop an internal tool to send snapshots of database tables to show what images are stored in the table and the related copy (PHP, Javascript, PostgreSQL)",
+            "Develop a Chrome extension to display Dotomi registration data and messages in a sidebar to help with tag and message testing and debugging (Javascript)"
+        ]
+    }
+]

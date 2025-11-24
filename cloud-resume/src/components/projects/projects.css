@@ -1,0 +1,49 @@
+.proj-wrapper {
+  box-shadow: 0 0 2em #ccc;
+  border-radius: 1em;
+  margin-bottom: 2rem;
+}
+
+.proj-name-wrapper {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    font: 2em Arial, sans-serif;
+    padding: .01em;
+    margin-bottom: .5em;
+}
+
+.proj-logo-placeholder {
+    width: 1.5em;
+    height: 1.5em;
+    margin: .5em;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 0.7em;
+    flex-shrink: 0;
+}
+
+.proj-item {
+    margin-bottom: .5em;
+    margin-left: 1em;
+    display: block;
+    text-align: left;
+    font: 1.2em Arial, sans-serif;
+}
+
+.proj-description-wrapper {
+    padding-bottom: 1em;
+}
+
+.proj-description {
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: left;
+    line-height: 1.5;
+    color: #555;
+}

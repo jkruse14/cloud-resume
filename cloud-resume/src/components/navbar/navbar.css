@@ -1,0 +1,18 @@
+.navbar {
+  position: sticky;
+
+  border-bottom: 2px solid darkslategray;
+  margin: 1em;
+  padding: .25em 1em;
+}
+
+.navbar ul {display: flex;
+ width: 600px;
+ margin: 0px auto;
+ font-size: 14px;
+ list-style: none;
+}
+
+.navbar ul li {
+ margin: 10px;
+}

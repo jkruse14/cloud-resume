@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Miles Board",
+        "technologies": ["Angular 1.5", "AWS Lambda", "Postgres"],
+        "description": "This was created to help a running store I run with. They have several group/community runs each week and track the number of miles and runs each team member has done, then at certain milestones a team member gets a fun prize such as stickers at 25, 50, and 100 miles. Previously, they were entering this into a spreadsheet, printing it out, people would record numbers, then at the end of the week they would update the spreadsheet. They have nearly 700 people in that spreadsheet and can get 50+ people out to each group run on average, typically far more during marathon prep and when it's nice out."
+    },
+    {
+        "name": "Scoreboard",
+        "technologies": ["Angular 1.5", "Firebase"],
+        "description": "This is a small project I put together to learn about Firebase. It allows you to create match ups between sports teams, increment the scores, start/pause the game timer, and view match ups in a second tab. The second tab is non-editable and not directly affected by the first tab. Both tabs have their own 'subscriptions' to the Firebase DB, so updates are sent to Firebase then the front end is automatically updated. This was the first time I used Firebase and was a great learning opportunity with a really cool technology."
+    },
+    {
+        "name": "Fitness Equipment Queue",
+        "technologies": ["Angular", "Firebase"],
+        "description": "A small project to help a local gym owner show which machines (treadmills, bikes, stair climbers) are available and which are not. For those that are not available, an estimated finish time can be given. Also, gym members can add their names to a list to see who is next in line for the next available machine type they want to use."
+    }
+]

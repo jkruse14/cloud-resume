@@ -5,7 +5,7 @@
 
 .tabs-header {
   display: flex;
-  border-bottom: 2px solid #e9ecef;
+  border-bottom: 2px solid var(--border-color);
   margin-bottom: 2rem;
 }
 
@@ -16,14 +16,14 @@
   cursor: pointer;
   font-size: 1.1rem;
   font-weight: 500;
-  color: #666;
+  color: var(--text-secondary);
   border-bottom: 3px solid transparent;
   transition: all 0.3s ease;
 }
 
 .tab-button:hover {
   color: #3066b1;
-  background: #f8f9fa;
+  background: var(--bg-secondary);
 }
 
 .tab-button.active {

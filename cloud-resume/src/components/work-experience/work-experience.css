@@ -1,9 +1,12 @@
 .we-wrapper {
-  box-shadow: 0 0 2em #ccc;
+  background: var(--bg-card);
+  color: var(--text-primary);
+  box-shadow: 0 0 1em var(--shadow-color);
   border-radius: 1em;
+  margin-bottom: .5em;
 }
 .we-company-wrapper {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--border-color);
     display: flex;
     align-items: center;
     /* gap: 1em; */

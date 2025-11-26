@@ -1,6 +1,8 @@
 cloud-resume/src/assets/*
 cloud-resume/public/*
 
+template-packaged.yaml
+
 # Logs
 logs
 *.log

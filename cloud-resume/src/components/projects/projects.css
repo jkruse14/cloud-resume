@@ -1,11 +1,13 @@
 .proj-wrapper {
-  box-shadow: 0 0 2em #ccc;
+  background: var(--bg-card);
+  color: var(--text-primary);
+  box-shadow: 0 0 2em var(--shadow-color);
   border-radius: 1em;
   margin-bottom: 2rem;
 }
 
 .proj-name-wrapper {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--border-color);
     display: flex;
     align-items: center;
     font: 2em Arial, sans-serif;
@@ -45,5 +47,5 @@
     margin-right: 1em;
     text-align: left;
     line-height: 1.5;
-    color: #555;
+    color: var(--text-secondary);
 }

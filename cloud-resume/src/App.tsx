@@ -4,6 +4,7 @@ import { WorkExperience } from './components/work-experience/work-experience'
 import { Tabs } from './components/tabs/Tabs';
 import { Education } from './components/education/Education';
 import { Projects } from './components/projects/Projects';
+import { Footer } from './components/footer/Footer';
 
 import workExperienceJson from './data/work-experience.json';
 
@@ -31,6 +32,7 @@ function App() {
         labels={['Work Experience', 'Education', 'Projects']}
         children={[workExperienceContent, <Education />, <Projects />]}
       />
+      <Footer />
     </>
   )
 }
